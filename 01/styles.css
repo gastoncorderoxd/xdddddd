@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray; /* Cambia el color de fondo de la página a lightblue */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+}
+
+img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.calificaciones {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.calificaciones li {
+    padding: 5px 10px; 
+    margin-bottom: 5px; 
+    border-radius: 5px;
+    color: black;
+    font-size: 14px; 
+    width: 60%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: center; 
+    border: 2px solid black; 
+}
+
+.calificacion-10 {
+    background-color: #28a745;
+}
+
+.calificacion-9 {
+    background-color: #2ecc71;
+}
+
+.calificacion-8 {
+    background-color: #f1c40f;
+}
+
+.calificacion-7 {
+    background-color: #f39c12;
+}
+
+.calificacion-6, .calificacion-5, .calificacion-4 {
+    background-color: #e74c3c;
+}
+
+.calificacion-no {
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+.curriculum {
+    background-color: gray; /* Color de fondo */
+    padding: 20px; /* Opcional: Añade espaciado interno */
+}
+
+.boton {
+    display: inline-block;      /* Hace que el enlace se comporte como un botón */
+    padding: 10px 20px;         /* Espaciado interno */
+    border: 2px solid #333;     /* Borde */
+    border-radius: 8px;         /* Bordes redondeados */
+    background-color: lightgray;  /* Color de fondo */
+    color: white;                /* Color del texto */
+    text-decoration: none;      /* Elimina el subrayado del enlace */
+    font-weight: bold;          /* Negrita */
+    transition: background-color 0.3s; /* Transición para el cambio de color */
+}
+
+.boton:hover {
+    background-color: black;  /* Color de fondo al pasar el mouse */
+}
+
+
+@media (max-width: 768px) {
+    .calificaciones {
+        width: 100%;
+    }
+
+    footer {
+        position: relative;
+    }
+}
+
+@media (max-width: 768px) {
+    .bienvenida {
+        padding: 10px; /* Menos padding en pantallas pequeñas */
+        font-size: 14px; /* Ajuste del tamaño de fuente */
+    }
+}
+
+
+.cuatrimestre {
+    padding: 8px 10px; 
+    margin: 20px auto; 
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 60%; 
+    text-align: center;
+    background-color: #333;
+    border: 2px solid black; 
+}
+
+.bienvenida h2 {
+    text-align: center; 
+}
+
+.bienvenida {
+    background-color: lightblue; 
+    border: 2px solid #333; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 80%; 
+    text-align: justify; 
+    font-weight: bold; 
+    color: black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2); 
+    display: block; 
+}
+
+.foto-personal {
+    max-width: 100%;
+    height: auto; 
+    margin-top: 10px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
